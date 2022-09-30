@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LineExample.MainPage">
+
+    <Grid RowDefinitions="200" ColumnDefinitions="200" BackgroundColor="Beige" WidthRequest="200" HeightRequest="200">
+        <Line X1="0" Y1="0" X2="100" Y2="100" Stroke="Blue"/>
+        <Line X1="100" Y1="0" X2="100" Y2="100" Stroke="green"/>
+        <Line X1="100" Y1="100" X2="200" Y2="200" Stroke="Red"/>
+    </Grid>
+
+</ContentPage>
